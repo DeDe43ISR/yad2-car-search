@@ -15,6 +15,8 @@
 
 ## Key Features
 
+* Made a template for any price tracking site to mimic human behaviour
+  - Bypassing sites protection against automated scripts to mine them such as [Amazon](https://www.amazon.com/)
 * Filter By car maker and module - See list of currently supported moduls in yad2_config
 * Filters out cars without a price and different basic features
 * Cross platform
@@ -41,6 +43,10 @@ $ pip install -r requirements.txt
 # Run the app
 $ python3 .\simple_tracker.py
 ```
+
+## Output
+
+The output will be in a JSON file called output.json and will have a list of cars, sorted by their maker. See output.json for an example.
 
 ## Credits
 
