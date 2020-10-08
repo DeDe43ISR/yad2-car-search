@@ -3,10 +3,7 @@ from selenium import webdriver
 DIRECTORY = 'reports'
 
 CARS_MODELS = {
-   'KIA': 'RIO',
-   'SUZUKI': 'SWIFT',
-   'TOYOTA': 'YARIS',
-   'HYUNDAI': 'I20'
+   'KIA': 'PICANTO',
 }
 
 CARS_SN = {
@@ -30,6 +27,7 @@ CARS_SN = {
 }
 MODELS_SN = {
     'RIO': '362',
+    'PICANTO': '1293',
     'SWIFT': '254',
     'YARIS': '1470',
     'I20': '1594'
@@ -51,8 +49,8 @@ GEAR_SN = {
     'ROBOTIC': '9'
 }
 
-MIN_PRICE = '30000'
-MAX_PRICE = '50000'
+MIN_PRICE = '10000'
+MAX_PRICE = '45000'
 MIN_YEAR = '2014'
 MAX_YEAR = '2020'
 FILTERS = {
@@ -65,7 +63,7 @@ FILTERS = {
         max: MAX_YEAR
     },
     'area': ['CENTER', 'JERUSALEM'],
-    'gear': ['AUTO']
+    'gear': ['MANUAL']
 }
 BASE_URL = "https://www.yad2.co.il/vehicles/private-cars"
 
